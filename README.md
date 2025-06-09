@@ -35,3 +35,26 @@ sei .env
 ```
 TWO_CAPTCHA_API_KEY=your_2captcha_api_key_here
 ```
+
+for xion wallets:
+```
+nano xiwal.txt
+```
+1 wallet per line
+
+xion run :
+```
+node xion.js
+```
+
+for sei walets:
+```
+nano wallets.txt
+```
+
+1 wallet per line
+
+sei faucet run :
+```
+node sei.js
+```
