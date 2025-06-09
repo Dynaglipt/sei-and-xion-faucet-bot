@@ -1,0 +1,22 @@
+{
+  "name": "xion-sei-faucet-bots",
+  "version": "1.0.0",
+  "description": "Automated faucet bots for XION and Sei Network testnets",
+  "scripts": {
+    "xion": "cd xion-faucet && node index.js",
+    "sei": "cd sei-faucet && node index.js",
+    "install-all": "npm install && cd xion-faucet && npm install && cd ../sei-faucet && npm install"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "https-proxy-agent": "^7.0.5",
+    "dotenv": "^16.4.5"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinak1023/sei-and-xion-faucet-bot.git"
+  },
+  "author": "Your Name",
+  "keywords": ["faucet", "xion", "sei", "testnet", "crypto"]
+}
