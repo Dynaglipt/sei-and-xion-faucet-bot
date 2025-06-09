@@ -1,0 +1,1 @@
+# sei-and-xion-faucet-bot
