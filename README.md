@@ -22,7 +22,7 @@ This repository contains two automated faucet claiming scripts for XION and Sei 
 1. Clone the repository:
 ```bash
 git clone https://github.com/sinak1023/sei-and-xion-faucet-bot
-cd xion-sei-faucet-bots
+cd sei-and-xion-faucet-bot
 npm install
 ```
 
